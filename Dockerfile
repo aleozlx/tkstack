@@ -5,7 +5,6 @@ RUN apt-get -y update \
 RUN pip install --upgrade pip
 COPY requirements.txt /requirements.txt
 RUN pip --no-cache-dir install -r /requirements.txt
-COPY keras.json /root/.keras/keras.json
 WORKDIR /notebooks
 CMD /bin/bash
 
