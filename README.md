@@ -5,7 +5,10 @@
 
 ## Workspace structure
 
-    /workspace ------------------ run ide from here
-    /workspace/scripts ---------- mount scripts / notebooks
-    /workspace/project ---------- mount project source code
-    /workspace/datasets --------- mount dataset
+~~~ bash
+    /workspace                      # run ide from here
+    /workspace/project              # clone project source code
+    /workspace/scripts              # mount other scripts / notebooks [optional]
+    /workspace/datasets             # mount dataset
+    "`python -m site --user-site`"  # user modules
+~~~
