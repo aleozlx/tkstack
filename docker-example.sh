@@ -2,7 +2,7 @@
 
 DOCKER="nvidia-docker"
 DOCKER_RUN="-it"
-IMAGE="aleozlx/tkstack:t101k202-gpu"
+IMAGE="aleozlx/tkstack:latest"
 
 # Expose ports
 let "P=8888"
