@@ -4,7 +4,7 @@ import os, sys
 
 DOCKER="nvidia-docker"
 DOCKER_RUN="-it"
-IMAGE="aleozlx/tkstack:research-gpu"
+IMAGE="aleozlx/tkstack:latest"
 
 PORTS = ['-p', '8888:8888']
 
